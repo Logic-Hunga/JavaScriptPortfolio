@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Logic Tesla</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"/>
+     <script src="https://kit.fontawesome.com/d9aa81d86d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="header" id="header">
+
+            <div class="container">
+
+                
+
+                <nav>
+                    <img src="./images/log.png" class="logo"/>
+
+                    <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="bx bx-x" onclick="closemenu()"></div>
+                  
+                </ul>
+
+                <div class="bx bx-menu" onclick="openmenu()"></div>
+                
+                </nav>
+                 
+                 
+
+                <div class="header-text">
+                    <p>Software Engineer and UI/UX Designer</p>
+                    <h1>Hi, Im <span>Logic</span> <br>Tesla From Malawi</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+        
+       <div  id="about">
+           <div class="container">
+               <div class="row">
+
+                    <div class="about-col-1">
+                        <img src="./images/about.png"/>
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">My Services</h1>
+                        <p>I develop websites, computer and mobile softwares. I have skills in media graphics, designing wedding invitation cards,calenders,
+                            church poster. I also do video animations for media advertisements. 
+
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div> 
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Software Development</span><br>Building Android,Windows and IOS apps</li>
+                                <li><span>Graphic Designing </span><br>Learning </li>
+                               
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                
+
+
+
+                                 <li><span>Three Years</span><br>Learning Java, JavaScript, Python, C++ and C# programming languages</li>
+                                <li><span>One Year</span><br>Learning Html and Css</li>
+                                <li><span>Three Years</span><br>Learning graphic designing using Adobe softwares</li>
+                                
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>UNIMA</span><br>Doing Bachelor of Education in computer Science</li>
+                                
+                               
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+               </div>
+           </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Services -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Development</h2>
+                        <p>
+                            Each website is going at K6000, i provide hight quality websites at your affordable rate
+                            
+                        </p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <h2>Software Development</h2>
+                        <p>
+                            The backend system at K5000, front end at K6000, and mobile app at K4000.
+                        </p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <h2>Graphic Designing</h2>
+                        <p>
+                            All  posters, calenders and many more are going at K2000 each, T-shirts at 7500 each, logos at K3000 and motion graphics going at K6000 
+                        </p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- Portfolio -->
+<div id="portifolio">
+
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+
+            <div class="work">
+                <img src="./images/port1.jpg"/>
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <p>
+                        I develop react and javascript web applications
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/port2.jpg"/>
+                <div class="layer">
+                    <h3>API</h3>
+                    <p>
+                        I develop API in  java, Node and Python Language
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/port3.jpg"/>
+                <div class="layer">
+                    <h3>Mobile Applications</h3>
+                    <p>
+                        I do develop mobile applications for both android and Mac Os using the Android studio and react native
+                    </p>
+                       <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <a href="#" class="btn">See More</a> 
+    </div>
+
+</div>
+
+
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>logichunga@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i>+265 994 228 850 & +265 994 228 850</p>
+                <div class="social-icons">
+                    
+                    <a href=""><i class="bx bxl-github"></i></a>
+                    <a href=""><i class="bx bxl-dribbble"></i></a>
+                    <a href=""><i class="bx bxl-facebook"></i></a>
+                    <a href=""><i class="bx bxl-twitter"></i></a>
+                    <a href=""><i class="bx bxl-instagram"></i></a>
+                    <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required/>
+                    <input type="email" name="Email" placeholder="Your email address" required/>
+                    <textarea name="Message" rows="6" placeholder="Message Me" ></textarea>
+                    <button type="submit"  class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+<div class="copy-right">
+    <p>Designed by Logic Tesla All rights reserved &copy Logic Studios</p>
+</div>
+
+</div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove('active-link');
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right ="0";
+            }
+            function closemenu() {
+                sidemenu.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html> 
